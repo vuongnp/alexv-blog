@@ -342,10 +342,10 @@
         postContent.innerHTML = '<div class="loading">Đang tải bài viết...</div>';
         
         // Log the markdown file path
-        console.log("Fetching markdown from:", `./posts/${blogId}/index.md`);
+        console.log("Fetching markdown from:", `${window.location.origin}/alexv-blog/posts/${blogId}/index.md`);
 
         // Fetch the markdown file
-        fetch(`./posts/${blogId}/index.md`)
+        fetch(`${window.location.origin}/alexv-blog/posts/${blogId}/index.md`)
             .then(response => {
                 console.log("Fetch response status:", response.status);
                 if (!response.ok) {
