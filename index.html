@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex V</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alex V - Blog cá nhân</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" id="about-link">About Me</a></li>
+                    <li><a href="#" id="blogs-link">Blogs</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- About Me Section -->
+            <section id="about-me" class="active-section">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Profile Picture" id="profile-image">
+                    </div>
+                    <div class="profile-info">
+                        <h2>Nguyễn Phú Vượng <span class="flag-icon">🇻🇳</span></h2>
+                        <p class="tagline">AI Engineer</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/np-vuong-4a829523b/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/SpecialTrue"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.tiktok.com/@vuong.np"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <h3>Giới thiệu</h3>
+                    <p>Xin chào! Tôi là Nguyễn Phú Vượng, một Engineer đam mê công nghệ và chia sẻ kiến thức.</p>
+                    
+                    <h3>Kỹ năng</h3>
+                    <div class="skills">
+                        <span class="skill-tag">AI</span>
+                        <span class="skill-tag">Programming</span>
+                        <span class="skill-tag">Automation</span>
+                    </div>
+                    
+                    <h3>Tiểu sử</h3>
+                    <div class="biography">
+                        <div class="bio-item">
+                            <h4>Đại học Bách Khoa Hà Nội</h4>
+                            <p>Chuyên ngành: Khoa học máy tính</p>
+                        </div>
+                        <div class="bio-item">
+                            <h4>Eureka Robotics - Singapore</h4>
+                            <p>Vị trí: Machine Learning Engineer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blogs Section -->
+            <section id="blogs" class="hidden-section">
+                <h2>Bài viết của tôi</h2>
+                <div class="blog-list" id="blog-list">
+                    <!-- Blog posts will be loaded here dynamically -->
+                    <div class="loading">Đang tải bài viết...</div>
+                </div>
+                <div class="all-blogs">
+                    <h3>Tất cả bài viết</h3>
+                    <div id="all-blogs-container">
+                        <!-- Các bài viết sẽ được hiển thị ở đây -->
+                    </div>
+                    <div id="pagination" class="pagination">
+                        <!-- Nút phân trang sẽ được thêm động -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Post Section -->
+            <section id="blog-post" class="hidden-section">
+                <div class="post-navigation">
+                    <button id="back-to-blogs"><i class="fas fa-arrow-left"></i> Quay lại</button>
+                </div>
+                <article id="post-content">
+                    <!-- Blog post content will be loaded here -->
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Alex V Blog. Xin hãy trích dẫn nguồn</p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js?v=1.4"></script>
+</body>
+</html>

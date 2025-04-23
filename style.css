@@ -1,0 +1,745 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+nav ul li a.active {
+    color: #3498db;
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Section Visibility */
+.hidden-section {
+    display: none;
+}
+
+.active-section {
+    display: block;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* About Me Section */
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.profile-image {
+    margin-right: 30px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f8f9fa;
+}
+
+.profile-info h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+social-links a {
+    color: #555;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+.about-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.about-content h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.skill-tag {
+    background-color: #e9f5fe;
+    color: #3498db;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin: 0 10px 10px 0;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.exp-item {
+    margin-bottom: 20px;
+}
+
+.exp-item h4 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.company {
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+/* Blogs Section */
+#blogs {
+    max-width: 1400px; /* Tăng chiều ngang tối đa của trang blogs */
+    margin: 0 auto; /* Căn giữa trang blogs */
+    padding: 20px;
+}
+
+/* Nội dung chính (parent của Bài viết nổi bật và Tất cả bài viết) */
+.main-content {
+    display: grid;
+    grid-template-columns: 70% 30%; /* Bài viết nổi bật chiếm 70%, Tất cả bài viết chiếm 30% */
+    gap: 20px;
+}
+
+/* Featured blogs section (Bài viết nổi bật) */
+.featured-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Hiển thị tối đa 3 bài viết nằm ngang */
+    gap: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.featured-blogs h3 {
+    grid-column: 1 / -1; /* Tiêu đề chiếm toàn bộ chiều ngang */
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5rem; /* Tăng kích thước tiêu đề */
+    text-align: center;
+}
+
+.featured-blogs .blog-card {
+    display: flex;
+    flex-direction: column; /* Hiển thị ảnh trên và nội dung dưới */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    height: 450; /* Đặt chiều cao cố định cho toàn bộ khung bài viết */
+    width: 100%; /* Đảm bảo bài viết chiếm toàn bộ chiều ngang của cột */
+}
+
+.featured-blogs .blog-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng khi hover */
+}
+
+/* Ảnh chiếm trọn khung hình */
+.featured-blogs .blog-card-image {
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều ngang */
+    height: 250px; /* Đặt chiều cao cố định cho ảnh */
+    overflow: hidden;
+}
+
+.featured-blogs .blog-card-image img {
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều ngang */
+    height: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều cao */
+    object-fit: cover; /* Cắt ảnh để vừa khung mà không méo */
+    transition: transform 0.3s ease; /* Hiệu ứng mượt khi hover */
+}
+
+.featured-blogs .blog-card:hover .blog-card-image img {
+    transform: scale(1.1); /* Zoom ảnh nhẹ khi hover */
+}
+
+/* Nội dung bài viết nổi bật */
+.featured-blogs .blog-card-content {
+    padding: 15px; /* Tăng khoảng cách giữa nội dung và viền */
+    text-align: center; /* Căn giữa nội dung */
+    background-color: #fff; /* Đảm bảo nội dung có nền trắng */
+    flex-grow: 1; /* Đảm bảo nội dung chiếm không gian còn lại */
+}
+
+.featured-blogs .blog-card-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;  /* Thay đổi từ nowrap thành normal */
+    height: auto;         /* Cho phép tự động điều chỉnh chiều cao */
+    max-height: 3.2em;    /* Tăng chiều cao tối đa (1.6em * 2 dòng) */
+    width: 100%;          /* Đảm bảo chiều rộng đầy đủ */
+    text-align: left;     /* Đảm bảo căn trái */
+}
+
+.featured-blogs .blog-card-content .blog-meta {
+    font-size: 0.9rem; /* Tăng kích thước metadata */
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.featured-blogs .blog-card-content .blog-excerpt {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+    max-height: 2.8em;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+}
+
+.featured-blogs .blog-card-content .read-more {
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.featured-blogs .blog-card-content .read-more:hover {
+    text-decoration: underline;
+}
+
+/* All blogs section (Tất cả bài viết) */
+
+/* Thay đổi từ grid sang flex layout để dễ kiểm soát hơn */
+.all-blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 0;
+}
+
+/* Điều chỉnh heading h3 */
+.all-blogs h3 {
+    margin: 0 0 10px 0; /* Thêm margin-bottom 10px */
+    color: #333;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eee; /* Thêm đường kẻ phía dưới */
+}
+
+/* Điều chỉnh container cho các blog items */
+#all-blogs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Blog card styling */
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Hiệu ứng chuyển đổi */
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer; /* Thêm con trỏ chuột để chỉ rõ bài viết có thể nhấp */
+}
+
+.blog-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng khi hover */
+    transform: translateY(-5px); /* Hiệu ứng nâng lên khi hover */
+}
+
+/* Blog card image */
+.blog-card-image {
+    overflow: hidden; /* Đảm bảo hình ảnh không bị tràn ra ngoài */
+    border-radius: 5px;
+}
+
+.blog-card-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Hiệu ứng mượt khi zoom */
+}
+
+.blog-card:hover .blog-card-image img {
+    transform: scale(1.1); /* Zoom hình ảnh lên 10% */
+}
+
+/* Blog card content */
+.blog-card-content {
+    padding: 0 15px;
+    flex: 1;
+}
+
+.blog-card-content h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: #007bff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.blog-card-content h3:hover {
+    text-decoration: underline; /* Gạch chân tiêu đề khi hover */
+}
+
+.blog-card-content .blog-meta {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/* Blog card title */
+.blog-card .blog-title {
+    text-align: left;  /* Thay đổi từ center thành left */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-height: 1.4;
+    -webkit-box-orient: vertical;
+    max-height: 2.8em;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    width: 100%;       /* Đảm bảo chiều rộng đầy đủ */
+    word-break: break-word;  /* Cho phép ngắt từ khi quá dài */
+}
+
+/* Blog card meta */
+.blog-card .blog-meta {
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+    color: #666;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blog-card .blog-meta span {
+    white-space: nowrap;
+}
+
+/* Blog card excerpt */
+.blog-card .blog-excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;    /* Thêm line-height cụ thể */
+    height: auto;
+    max-height: 4.2em;   /* 1.4em * 3 dòng */
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #555;
+    width: 100%;         /* Đảm bảo chiều rộng đầy đủ */
+    word-break: break-word;  /* Cho phép ngắt từ khi quá dài */
+}
+
+/* Style cho blog meta trong blog card */
+.blog-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.85rem;
+    color: #666;
+    width: 100%;
+}
+
+.blog-meta-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blog-meta-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.blog-views, .post-views {
+    color: #666;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.blog-views i, .post-views i {
+    margin-right: 3px;
+    color: #888;
+}
+
+/* Pagination styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: #007bff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination button.active {
+    background-color: #007bff;
+    color: #fff;
+    cursor: default;
+}
+
+/* Blog Post Section */
+.post-navigation {
+    margin-bottom: 20px;
+}
+
+#back-to-blogs {
+    background: none;
+    border: none;
+    color: #3498db;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#back-to-blogs i {
+    margin-right: 5px;
+}
+
+#post-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#post-content h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+#post-content h2, 
+#post-content h3, 
+#post-content h4 {
+    color: #2c3e50;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#post-content p {
+    margin-bottom: 20px;
+}
+
+#post-content img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#post-content .img-small {
+    max-width: 300px;
+}
+
+#post-content .img-medium {
+    max-width: 500px;
+}
+
+#post-content .img-large {
+    max-width: 800px;
+}
+
+#post-content code {
+    background-color: #f8f9fa;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#post-content pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+#post-content blockquote {
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin-left: 0;
+    color: #555;
+    font-style: italic;
+}
+
+#post-content ul, 
+#post-content ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+#post-content a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#post-content a:hover {
+    text-decoration: underline;
+}
+
+/* Style cho post meta trong trang chi tiết */
+.post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.post-meta-left {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.post-meta-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post-date, .post-category {
+    font-size: 0.95rem;
+    margin-right: 15px;
+    color: #666;
+}
+
+.post-views {
+    font-size: 0.95rem;
+}
+
+/* Blog navigation styling */
+.blog-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 2px solid #ddd;
+    background-color: #f9f9f9; /* Thêm màu nền để phần điều hướng nổi bật */
+    border-radius: 5px;
+}
+
+.blog-navigation .prev-blog,
+.blog-navigation .next-blog {
+    text-align: left;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.blog-navigation .next-blog {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.blog-navigation .prev-blog i {
+    margin-right: 5px;
+}
+
+.blog-navigation .next-blog i {
+    margin-left: 5px;
+}
+
+.blog-navigation .prev-blog:hover,
+.blog-navigation .next-blog:hover {
+    text-decoration: underline;
+    background-color: #e9ecef; /* Hiệu ứng hover */
+    border-radius: 3px;
+}
+
+.blog-navigation a {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.blog-navigation a:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    color: #7f8c8d;
+    border-top: 1px solid #eaeaea;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .blog-list {
+        grid-template-columns: 1fr;
+    }
+
+    #blogs {
+        max-width: 100%; /* Đảm bảo trang blogs chiếm toàn bộ chiều ngang trên màn hình nhỏ */
+        padding: 10px;
+    }
+
+    .main-content {
+        grid-template-columns: 1fr; /* Hiển thị dọc trên màn hình nhỏ */
+    }
+
+    .featured-blogs {
+        grid-template-columns: 1fr; /* Hiển thị dọc trên màn hình nhỏ */
+    }
+
+    .all-blogs {
+        grid-template-rows: 1fr; /* Hiển thị dọc trên màn hình nhỏ */
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+    }
+
+    header h1 {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
+
+/* Flag Icon */
+.flag-icon {
+    font-size: 0.8em;
+    vertical-align: middle;
+    margin-left: 5px;
+}

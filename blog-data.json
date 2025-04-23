@@ -1,0 +1,26 @@
+{
+    "blogs": [
+      {
+        "id": "Blog0_Example",
+        "title": "Bài viết đầu tiên của tôi",
+        "date": "2025-01-15",
+        "excerpt": "Đây là bài viết đầu tiên trên blog cá nhân của tôi. Tôi sẽ chia sẻ về quá trình học lập trình và phát triển web.",
+        "category": "Web Development"
+    },
+    {
+      "id": "Blog1_ImageTrend",
+      "title": "Cách đu mọi loại trend tạo ảnh với ChatGPT",
+      "date": "2025-04-01",
+      "excerpt": "Trong bài viết này minh sẽ chia sẻ với các bạn cách để đu mọi loại trend tạo ảnh với ChatGPT mà không cần phải xin prompt.",
+      "category": "AI non-tech"
+    },
+      {
+        "id": "Blog2_108PromptsChatGPT",
+        "title": "Chia sẻ tài liệu 108 prompts sáng tạo với ChatGPT",
+        "date": "2025-04-04",
+        "excerpt": "Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, kiến trúc, ẩm thực, marketing,...",
+        "category": "AI non-tech"
+      }
+    ]
+  }
+  
