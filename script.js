@@ -239,7 +239,7 @@
         blogCard.className = 'blog-card';
         blogCard.innerHTML = `
             <div class="blog-card-image">
-                <img src="posts/${blog.id}/thumbnail.jpg" alt="${blog.title}" onerror="this.src='images/no-image.jpg'">
+                <img src="./posts/${blog.id}/thumbnail.jpg" alt="${blog.title}" onerror="this.src='images/no-image.jpg'">
             </div>
             <div class="blog-card-content">
                 <h3 class="blog-title" title="${blog.title}" style="text-align: left; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; line-height: 1.4; -webkit-box-orient: vertical; max-height: 2.8em; margin-bottom: 0.5rem;">${blog.title}</h3>
@@ -342,10 +342,10 @@
         postContent.innerHTML = '<div class="loading">Đang tải bài viết...</div>';
         
         // Log the markdown file path
-        console.log("Fetching markdown from:", `posts/${blogId}/index.md`);
+        console.log("Fetching markdown from:", `./posts/${blogId}/index.md`);
 
         // Fetch the markdown file
-        fetch(`/alexv-blog/posts/${blogId}/index.md`)
+        fetch(`./posts/${blogId}/index.md`)
             .then(response => {
                 console.log("Fetch response status:", response.status);
                 if (!response.ok) {
@@ -394,7 +394,7 @@
                 // Process markdown to fix image paths
                 processedMarkdown = processedMarkdown.replace(
                     /!\[(.*?)\]\(((?!http|\/\/|\.\/|\.\.\/)[^)]+)\)/g, 
-                    `![$1](posts/${blogId}/images/$2)`
+                    `![$1](./posts/${blogId}/images/$2)`
                 );
                 
                 // Convert markdown to HTML using marked library
