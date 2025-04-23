@@ -7,7 +7,7 @@ category: AI non-tech
 
 ## Giới thiệu
 
-Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, kiến trúc, ẩm thực, marketing,...
+Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, Kiến trúc, Ẩm thực, Marketing,...
 Phong cách cực kỳ đa dạng từ Chibi, Diorama, xuyên không, tranh Đông Hồ,...(trend tạo hình hộp đồ chơi nghề nghiệp cũng bắt đầu từ đây).
 Tài liệu ban đầu được tổng hợp từ một anh chàng người Hàn Quốc, mình đã bổ sung những trend hot nhất hiện nay.
 

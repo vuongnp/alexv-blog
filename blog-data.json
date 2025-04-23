@@ -1,25 +1,25 @@
 {
     "blogs": [
       {
-        "id": "Blog0_Example",
-        "title": "Bài viết đầu tiên của tôi",
-        "date": "2025-01-15",
-        "excerpt": "Đây là bài viết đầu tiên trên blog cá nhân của tôi. Tôi sẽ chia sẻ về quá trình học lập trình và phát triển web.",
-        "category": "Web Development"
-    },
-    {
-      "id": "Blog1_ImageTrend",
-      "title": "Cách đu mọi loại trend tạo ảnh với ChatGPT",
-      "date": "2025-04-01",
-      "excerpt": "Trong bài viết này minh sẽ chia sẻ với các bạn cách để đu mọi loại trend tạo ảnh với ChatGPT mà không cần phải xin prompt.",
-      "category": "AI non-tech"
-    },
+        "id": "Blog1_ImageTrend",
+        "title": "Cách đu mọi loại trend tạo ảnh với ChatGPT",
+        "date": "2025-04-01",
+        "excerpt": "Trong bài viết này minh sẽ chia sẻ với các bạn cách để đu mọi loại trend tạo ảnh với ChatGPT mà không cần phải xin prompt.",
+        "category": "AI non-tech"
+      },
       {
         "id": "Blog2_108PromptsChatGPT",
         "title": "Chia sẻ tài liệu 108 prompts sáng tạo với ChatGPT",
         "date": "2025-04-04",
-        "excerpt": "Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, kiến trúc, ẩm thực, marketing,...",
+        "excerpt": "Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, Kiến trúc, Ẩm thực, Marketing,...",
         "category": "AI non-tech"
+      },
+      {
+        "id": "Blog3_MemoryGame",
+        "title": "Hướng dẫn cài đặt Memory Game để vừa học vừa chơi cùng con",
+        "date": "2025-04-22",
+        "excerpt": "Hôm nay, mình sẽ hướng dẫn các bạn cách cài đặt Memory Game - một ứng dụng được mình tạo ra để các ông bố, bà mẹ dạy con học một cách dễ dàng và thú vị hơn.",
+        "category": "Application non-tech"
       }
     ]
   }

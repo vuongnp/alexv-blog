@@ -191,7 +191,7 @@
         blogList.innerHTML = '';
 
         // Danh sách các bài viết nổi bật (chỉ định bằng ID)
-        const featuredIds = ["Blog0_Example", "Blog2_108PromptsChatGPT", "Blog1_ImageTrend"];
+        const featuredIds = ["Blog2_108PromptsChatGPT", "Blog1_ImageTrend", "Blog3_MemoryGame"];
         const featuredBlogs = allBlogPosts.filter(blog => featuredIds.includes(blog.id));
 
         // Hiển thị các bài viết nổi bật
