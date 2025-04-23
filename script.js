@@ -345,7 +345,7 @@
         console.log("Fetching markdown from:", `posts/${blogId}/index.md`);
 
         // Fetch the markdown file
-        fetch(`posts/${blogId}/index.md`)
+        fetch(`/alexv-blog/posts/${blogId}/index.md`)
             .then(response => {
                 console.log("Fetch response status:", response.status);
                 if (!response.ok) {
