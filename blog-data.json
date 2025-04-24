@@ -2,21 +2,21 @@
     "blogs": [
       {
         "id": "Blog1_ImageTrend",
-        "title": "Cách đu mọi loại trend tạo ảnh với ChatGPT",
-        "date": "2025-04-01",
+        "title": "Hướng dẫn tạo ảnh theo trend với ChatGPT",
+        "date": "2025-04-03",
         "excerpt": "Trong bài viết này minh sẽ chia sẻ với các bạn cách để đu mọi loại trend tạo ảnh với ChatGPT mà không cần phải xin prompt.",
         "category": "AI non-tech"
       },
       {
         "id": "Blog2_108PromptsChatGPT",
-        "title": "Chia sẻ tài liệu 108 prompts sáng tạo với ChatGPT",
+        "title": "Tổng hợp 108 Prompts sáng tạo với ChatGPT - Đa dạng ngành nghề và phong cách",
         "date": "2025-04-04",
         "excerpt": "Tổng hợp 108 prompts sáng tạo ảnh với ChatGPT, ứng dụng cho nhiều ngành nghề từ Thời trang, Kiến trúc, Ẩm thực, Marketing,...",
         "category": "AI non-tech"
       },
       {
         "id": "Blog3_MemoryGame",
-        "title": "Hướng dẫn cài đặt Memory Game để vừa học vừa chơi cùng con",
+        "title": "Hướng dẫn cài đặt Memory Game - Ứng dụng học như chơi cùng con",
         "date": "2025-04-22",
         "excerpt": "Hôm nay, mình sẽ hướng dẫn các bạn cách cài đặt Memory Game - một ứng dụng được mình tạo ra để các ông bố, bà mẹ dạy con học một cách dễ dàng và thú vị hơn.",
         "category": "Application non-tech"
