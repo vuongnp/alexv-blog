@@ -11,10 +11,10 @@ keywords: English Conversation Generator, học tiếng Anh, tạo hội thoại
 Tiếp tục với series **"Làm những ứng dụng đơn giản, hữu ích và chia sẻ miễn phí"**, mình sẽ hướng dẫn các bạn cách cài đặt ứng dụng **English Conversation Generator** - một ứng dụng giúp bạn tạo ra các cuộc hội thoại tiếng Anh thú vị và hữu ích.
 
 🤔 App này có gì hay?
-- 🗣️ Tự tạo bài nói: Chọn chủ đề bạn thích (du lịch, ăn uống, công việc...), chỉnh độ khó (A1-B2) và độ dài tùy ý.
+- 🗣️ Tự tạo bài nói: Nhập chủ đề bạn thích, chọn trình độ (A1-B2) và độ dài cuộc hội thoại.
 - 🖼️ Có hình minh họa: Giúp bạn dễ hình dung ngữ cảnh.
 - 📚 Học từ vựng: List từ quan trọng kèm nghĩa & phát âm chuẩn.
-- 🎧 Nghe mọi lúc: Có file audio để luyện nghe online hoặc tải về máy.
+- 🎧 Audio: Có file audio để luyện nghe online hoặc tải về máy.
 
 💸 Tốn kém không?
 - CÓ, và rất "đắt" nhé! 😉 Nếu mỗi ngày bạn chăm chỉ học 4 bài, thì sau 1 tháng bạn sẽ "thiệt hại" khoảng... NỬA LY TRÀ SỮA! 😂
@@ -108,7 +108,9 @@ English Conversation Generator là một ứng dụng đơn giản giúp bạn h
 
 Hãy thử ngay hôm nay và chia sẻ trải nghiệm của bạn với mình nhé!
 
-> **Lưu ý**: Nếu có bất kỳ vấn đề gì trong quá trình cài đặt, hãy liên hệ với mình qua bất kỳ link nào trong phần About Me. Mình sẽ rất vui nếu giúp đỡ được bạn. 😄
+> **Lưu ý**: 
+- Model mình sử dụng trong ứng dụng này không được dùng cho mục đích thương mại.
+- Nếu có bất kỳ vấn đề gì trong quá trình cài đặt, hãy liên hệ với mình qua bất kỳ link nào trong phần About Me. Mình sẽ rất vui nếu giúp đỡ được bạn. 😄
 
 ---
 
