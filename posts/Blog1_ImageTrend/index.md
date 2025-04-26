@@ -1,5 +1,5 @@
 ---
-title: Hướng dẫn tạo ảnh theo trend với ChatGPT
+title: Hướng dẫn tạo đu mọi trend tạo ảnh với ChatGPT
 date: 2025-04-03
 category: AI non-tech
 description: Tìm hiểu cách tạo ảnh theo trend với ChatGPT, từ việc lấy prompt, tạo ảnh, đến thay khuôn mặt và làm video ấn tượng. Hướng dẫn chi tiết và dễ hiểu.
@@ -10,7 +10,7 @@ keywords: ChatGPT, tạo ảnh, AI, trend, FaceSwap, remaker.ai, tạo video t�
 
 Bạn muốn tạo ảnh theo trend nhưng không biết bắt đầu từ đâu? Trong bài viết này, mình sẽ hướng dẫn bạn cách sử dụng ChatGPT và các công cụ AI để tạo ra những bức ảnh ấn tượng mà không cần phải xin prompt.
 
-### Ví dụ: Tạo mô hình nghề nghiệp với ChatGPT
+## Ví dụ: Tạo mô hình nghề nghiệp với ChatGPT
 
 Dưới đây là một ví dụ về trend tạo mô hình nghề nghiệp. Bạn có thể tạo ảnh như thế này chỉ với vài bước đơn giản.
 
@@ -51,7 +51,7 @@ Ví dụ:
 
 ---
 
-### Kết luận
+## Kết luận
 
 Với ChatGPT và các công cụ AI, việc tạo ảnh theo trend chưa bao giờ dễ dàng đến thế. Hãy thử ngay hôm nay và chia sẻ thành quả của bạn với mọi người!
 

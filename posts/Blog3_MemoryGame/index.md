@@ -15,9 +15,9 @@ Hôm nay, mình sẽ hướng dẫn các bạn cách cài đặt Memory Game - m
 
 ---
 
-### Cài đặt ứng dụng
+## Cài đặt ứng dụng
 
-#### Bước 1. Tải code của ứng dụng
+### Bước 1. Tải code của ứng dụng
 
 Bạn có thể tải code bằng 1 trong 2 cách sau:
 
@@ -33,17 +33,17 @@ git clone -b vn-version https://github.com/vuongnp/memory-game.git
 
 ---
 
-#### Bước 2. Cài đặt Python
+### Bước 2. Cài đặt Python
 
 Python là ngôn ngữ mà mình đã sử dụng để viết ứng dụng này. Các bạn sẽ cần Python để khởi chạy ứng dụng.
 
 Nếu bạn chưa cài Python, hãy tham khảo hướng dẫn cài đặt cho Windows, MacOS, Linux [tại đây](https://quantrimang.com/hoc/cach-cai-dat-python-tren-windows-macos-linux-140625).
 
-> **Lưu ý**: Nên cài đặt phiên bản Python 3.8 hoặc 3.9 để đảm bảo không gặp lỗi trong quá trình sử dụng.
+> **Lưu ý**: Nên cài đặt phiên bản Python 3.9 để đảm bảo không gặp lỗi trong quá trình sử dụng.
 
 ---
 
-#### Bước 3. Cài đặt thư viện
+### Bước 3. Cài đặt thư viện
 
 Trong Terminal hoặc Command Prompt, vào thư mục code vừa tải về.  
 Ví dụ:
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-#### Bước 4. Chạy ứng dụng
+### Bước 4. Chạy ứng dụng
 
 Sau khi cài đặt xong, chạy ứng dụng bằng lệnh:
 ```bash
@@ -79,7 +79,7 @@ Nếu mọi thứ đều ổn, bạn sẽ thấy các dòng tương tự như sa
 
 ---
 
-### Chơi game thôi!
+## Chơi game thôi!
 
 Đến phần thú vị nhất rồi đây.
 Sau khi chạy ứng dụng, bạn sẽ nhìn thấy một dòng chữ kiểu như thế này:
@@ -98,7 +98,7 @@ Giờ thì, chơi game thôi nào!
 
 ---
 
-### Cách thay thế bằng câu hỏi của bạn
+## Cách thay thế bằng câu hỏi của bạn
 
 Bạn có thể tùy chỉnh câu hỏi trong game bằng cách chuẩn bị một file Excel tên là `questions.xlsx` theo mẫu sau:  
 ![Mẫu file câu hỏi](questions.png "Mẫu file câu hỏi cho Memory Game")
@@ -122,7 +122,9 @@ Game sẽ tự động cập nhật các câu hỏi mới của bạn.
 
 Memory Game là một ứng dụng đơn giản mà mình nghĩ ra trong thời gian nghỉ trưa ở công ty và mất khoảng 4 tiếng để hoàn thành. Vì vậy, ứng dụng có thể còn nhiều chỗ chưa hoàn thiện, rất hoan nghênh các bạn tự mày mò và phát triển thêm.
 
-Đây là ứng dụng đầu tiên trong series **"Làm những ứng dụng đơn giản, hữu ích và miễn phí"** mà mình sẽ chia sẻ trong thời gian tới. Hy vọng các bạn sẽ thích và ủng hộ mình nhé!
+Đây là ứng dụng đầu tiên trong series **"Làm những ứng dụng đơn giản, hữu ích và chia sẻ miễn phí"** của mình. Hy vọng các bạn sẽ thích và ủng hộ mình nhé!
+
+> **Lưu ý**: Nếu có bất kỳ vấn đề gì trong quá trình cài đặt, hãy liên hệ với mình qua bất kỳ link nào trong phần About Me. Mình sẽ rất vui nếu giúp đỡ được bạn. 😄
 
 ---
 

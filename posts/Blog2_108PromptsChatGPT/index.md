@@ -95,7 +95,7 @@ Bạn có thể tải tài liệu đầy đủ tại đây:
 
 ---
 
-### Kết luận
+## Kết luận
 
 Tài liệu 108 prompts sáng tạo với ChatGPT là nguồn cảm hứng tuyệt vời cho những ai muốn khám phá và sáng tạo trong nhiều lĩnh vực. Hãy thử ngay hôm nay và chia sẻ thành quả của bạn!
 
