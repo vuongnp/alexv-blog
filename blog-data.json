@@ -27,6 +27,13 @@
         "date": "2025-04-26",
         "excerpt": "Hướng dẫn chi tiết cách cài đặt English Conversation Generator - ứng dụng giúp bạn tạo hội thoại tiếng Anh theo chủ đề. Bao gồm cách tải code, cài đặt Python, và sử dụng API.",
         "category": "Application non-tech"
+      },
+      {
+        "id": "Blog5_MultiFaceSwap",
+        "title": "Hướng dẫn cài đặt Multi-Face Swap - Ứng dụng hoán đổi khuôn mặt miễn phí và an toàn",
+        "date": "2025-04-29",
+        "excerpt": "Hướng dẫn chi tiết cách cài đặt Multi-Face Swap - ứng dụng giúp bạn hoán đổi khuôn mặt miễn phí và an toàn. Bao gồm cách tải code, cài đặt môi trường.",
+        "category": "Application non-tech"
       }
     ]
   }
