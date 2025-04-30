@@ -90,12 +90,12 @@ Một trang web sẽ mở ra trong trình duyệt của bạn. Tải ảnh lên,
 ## Phần mở rộng: Sử dụng trên điện thoại
 Dành cho bạn nào muốn sử dụng ứng dụng trên điện thoại (hoặc một máy tính khác).
 
-Trong **Bước 4**, sau khi chạy lệnh `streamlit run app.py`, trong Terminal (hoặc Command Prompt) bạn sẽ thấy một dòng kiểu như thế này:
+Trong **Bước 5**, sau khi chạy lệnh `streamlit run app.py`, trong Terminal (hoặc Command Prompt) bạn sẽ thấy một dòng kiểu như thế này:
 ```
 Network URL: http://192.168.1.36:8501
 ```
 
-Để truy cập bằng thiết bị khác, hãy thay thế câu lệnh trong Bước 4 bằng:
+Để truy cập bằng thiết bị khác, hãy thay thế câu lệnh trong Bước 5 bằng:
 ```bash
 streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 ```
