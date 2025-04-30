@@ -39,13 +39,21 @@ git clone https://github.com/vuongnp/face-swap.git
 
 ---
 
-### Bước 2. Cài đặt Python
+### Bước 2. Tải model 
+
+- Các bạn tải model từ link sau: [link](https://drive.google.com/file/d/1JIrUUP2ONsYdj-6afFqZXb5U9mDSK0dV/view?usp=sharing)
+
+- Tạo thư mục **models** trong thư mục code vừa tải về (đường dẫn sẽ là **face-swap/models**) và để model vào trong đó.
+
+--- 
+
+### Bước 3. Cài đặt Python
 
 Nếu bạn đã cài Python từ các bài viết trước thì hãy bỏ qua bước này. Nếu chưa, hãy tham khảo hướng dẫn cài đặt Python trong bài viết [Hướng dẫn cài đặt Memory Game - Ứng dụng học như chơi cùng con](https://vuongnp.github.io/alexv-blog/#blog=Blog3_MemoryGame).
 
 ---
 
-### Bước 3. Cài đặt thư viện
+### Bước 4. Cài đặt thư viện
 
 Trong Terminal hoặc Command Prompt, vào thư mục code vừa tải về. Ví dụ:
 
@@ -67,7 +75,7 @@ pip install -r requirements.txt
 
 ---
 
-### Bước 4. Chạy ứng dụng
+### Bước 5. Chạy ứng dụng
 
 Sau khi cài đặt xong, trong Terminal hoặc Command Prompt, chạy ứng dụng bằng lệnh:
 ```bash
